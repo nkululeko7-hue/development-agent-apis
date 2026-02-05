@@ -1,0 +1,19 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd  http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+	http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+    <http:listener-config name="Listener-config">
+        <http:listener-connection port="8081" host="0.0.0.0"></http:listener-connection>
+    </http:listener-config>
+    <flow name="hello-mule-flow">
+        <http:listener doc:id="uhssjz" doc:name="Listener" path="/mule-welcome" config-ref="Listener-config"></http:listener>
+        <logger doc:name="Logger" doc:id="trcztv" message="inside main flow"/>
+        <ee:transform doc:name="Transform" doc:id="tqdssd" >
+            <ee:message >
+                <ee:set-payload doc:name="Set payload" doc:id="ahynrq" ><![CDATA[%dw 2.0
+        output application/json
+        ---
+      "Welcome to VS Code Mule Ext"]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
+    </flow>
+</mule>

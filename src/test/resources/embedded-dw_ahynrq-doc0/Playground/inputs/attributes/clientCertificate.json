@@ -1,0 +1,74 @@
+{
+  "basicConstraints": 42,
+  "criticalExtensionOIDs": [
+    "molestie",
+    "mi"
+  ],
+  "extendedKeyUsage": [
+    "dolor",
+    "Nam",
+    "sodales"
+  ],
+  "extensions": [
+    {
+      "criticality": true,
+      "oid": "eros"
+    }
+  ],
+  "issuerAlternativeNames": [
+    {
+      "name": "Dante",
+      "type": 36
+    }
+  ],
+  "issuerDN": {
+    "commonName": "ac",
+    "name": "Ali"
+  },
+  "issuerUniqueID": [
+    false,
+    true,
+    true
+  ],
+  "issuerX500Principal": {
+    "name": "Dan"
+  },
+  "keyUsage": [
+    true,
+    false,
+    true
+  ],
+  "name": "Aldo",
+  "nonCriticalExtensionOIDs": [
+    "faucibus",
+    "sodales",
+    "ac"
+  ],
+  "publicKey": {
+    "algorithm": "Lorem",
+    "modulus": 89,
+    "params": 0,
+    "publicKey": "elit"
+  },
+  "serialNumber": 57,
+  "serialNumberObject": {
+    "serialNumber": 16
+  },
+  "sigAlgName": "lectus",
+  "sigAlgOID": "vitae",
+  "subjectAlternativeNames": [
+    {
+      "name": "Abel",
+      "type": 55
+    }
+  ],
+  "subjectDN": {
+    "commonName": "eget",
+    "name": "Adolph"
+  },
+  "subjectX500Principal": {
+    "name": "Columbus"
+  },
+  "type": "faucibus",
+  "version": 96
+}
