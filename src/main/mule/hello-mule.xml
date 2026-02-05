@@ -6,13 +6,13 @@
     </http:listener-config>
     <flow name="hello-mule-flow">
         <http:listener doc:id="uhssjz" doc:name="Listener" path="/mule-welcome" config-ref="Listener-config"></http:listener>
-        <logger doc:name="Logger" doc:id="trcztv" message="inside main flow"/>
+        <logger doc:name="Logger" doc:id="trcztv" message="inside main ACB Extension with Github"/>
         <ee:transform doc:name="Transform" doc:id="tqdssd" >
             <ee:message >
                 <ee:set-payload doc:name="Set payload" doc:id="ahynrq" ><![CDATA[%dw 2.0
         output application/json
         ---
-      "Welcome to VS Code Mule Ext"]]></ee:set-payload>
+      "Welcome to VS Code Mule Ext With GitHub"]]></ee:set-payload>
             </ee:message>
         </ee:transform>
     </flow>

@@ -1,74 +1,71 @@
 {
-  "basicConstraints": 42,
+  "basicConstraints": 0,
   "criticalExtensionOIDs": [
-    "molestie",
-    "mi"
+    "tempor",
+    "sit"
   ],
   "extendedKeyUsage": [
-    "dolor",
-    "Nam",
-    "sodales"
+    "sit",
+    "aliquam"
   ],
   "extensions": [
     {
-      "criticality": true,
-      "oid": "eros"
+      "criticality": false,
+      "oid": "elit"
     }
   ],
   "issuerAlternativeNames": [
     {
-      "name": "Dante",
-      "type": 36
+      "name": "Clarence",
+      "type": 69
     }
   ],
   "issuerDN": {
-    "commonName": "ac",
-    "name": "Ali"
+    "commonName": "libero",
+    "name": "Chuck"
   },
   "issuerUniqueID": [
-    false,
     true,
     true
   ],
   "issuerX500Principal": {
-    "name": "Dan"
+    "name": "Adeline"
   },
   "keyUsage": [
     true,
-    false,
-    true
+    false
   ],
-  "name": "Aldo",
+  "name": "Agueda",
   "nonCriticalExtensionOIDs": [
-    "faucibus",
-    "sodales",
-    "ac"
+    "dolor",
+    "nibh",
+    "Nunc"
   ],
   "publicKey": {
-    "algorithm": "Lorem",
-    "modulus": 89,
-    "params": 0,
-    "publicKey": "elit"
+    "algorithm": "sed",
+    "modulus": 70,
+    "params": 50,
+    "publicKey": "ac"
   },
-  "serialNumber": 57,
+  "serialNumber": 12,
   "serialNumberObject": {
-    "serialNumber": 16
+    "serialNumber": 49
   },
-  "sigAlgName": "lectus",
-  "sigAlgOID": "vitae",
+  "sigAlgName": "sodales",
+  "sigAlgOID": "dolor",
   "subjectAlternativeNames": [
     {
-      "name": "Abel",
-      "type": 55
+      "name": "Alex",
+      "type": 86
     }
   ],
   "subjectDN": {
-    "commonName": "eget",
-    "name": "Adolph"
+    "commonName": "sit",
+    "name": "Aletha"
   },
   "subjectX500Principal": {
-    "name": "Columbus"
+    "name": "Cruz"
   },
-  "type": "faucibus",
-  "version": 96
+  "type": "tempor",
+  "version": 53
 }
